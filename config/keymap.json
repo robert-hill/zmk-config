@@ -1,7 +1,7 @@
 {
-  "keyboard": "foo",
-  "keymap": "",
-  "layout": "",
+  "keyboard": "nice60",
+  "keymap": "personal",
+  "layout": "ansi",
   "layer_names": [
     "default",
     "lower_layer",
