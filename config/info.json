@@ -1,5 +1,3 @@
 {
-    "layouts": {
-        "nice60"
-    }
+    "layouts": "nice60"
 }
