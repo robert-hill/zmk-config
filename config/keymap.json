@@ -1,11 +1,11 @@
 {
-  "keyboard": "foo",
+  "keyboard": "nice60",
   "keymap": "",
   "layout": "",
   "layer_names": [
     "default",
     "lower",
-    "RAISE"
+    "raise"
   ],
   "layers": [
     [
