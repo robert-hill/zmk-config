@@ -17,6 +17,17 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+        combo_navi {
+            timeout-ms = <50>;
+            key-positions = <59 58>;
+            bindings = <&tog 2>;
+        };
+    };
+};
+
+/ {
     keymap {
         compatible = "zmk,keymap";
 
