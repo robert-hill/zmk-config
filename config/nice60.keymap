@@ -24,6 +24,11 @@
             key-positions = <59 58>;
             bindings = <&tog 2>;
         };
+        combo_capslock {
+            timeout-ms = <50>;
+            key-positions = <15 29>;
+            bindings = <&kp CAPSLOCK>;
+        };
     };
 };
 
@@ -40,7 +45,7 @@
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V     &kp B             &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
             &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE  &kp RGUI             &mo 2   &mo 1  &kp RCTRL
             >;
-        };
+        };  
 
         layer_lower_layer {
             bindings = <
