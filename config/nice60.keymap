@@ -15,6 +15,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     combos {
@@ -52,7 +53,7 @@
  &bt BT_SEL 0      &kp F1    &kp F2     &kp F3  &kp F4     &kp F5            &kp F6    &kp F7    &kp F8     &kp F9  &kp F10  &kp F11  &kp F12  &trans
  &bt BT_SEL 1    &kp HOME    &kp UP  &kp PG_UP  &trans     &trans            &trans  &kp HOME    &kp UP  &kp PG_UP   &trans   &trans   &trans  &trans
  &bt BT_SEL 2    &kp LEFT  &kp DOWN  &kp RIGHT  &trans     &trans            &trans  &kp LEFT  &kp DOWN  &kp RIGHT   &trans   &trans   &trans
- &bt BT_SEL 3     &kp END    &trans  &kp PG_DN  &trans     &trans            &trans   &kp END    &trans  &kp PG_DN   &trans   &trans
+ &bt BT_SEL 3     &kp END    &trans  &kp PG_DN  &out OUT_USB   &out OUT_BLE     &out OUT_TOG   &kp END    &trans  &kp PG_DN   &trans   &trans
                &bt BT_CLR    &bootloader     &trans  &trans  &kp PSCRN            &trans    &trans   &kp DEL
             >;
         };
