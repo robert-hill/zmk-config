@@ -23,7 +23,7 @@
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp SPACE>, <&lt 2>;
+            bindings = <&kp SPACE>, <&mo 2>;
         };
     };
 
@@ -55,7 +55,7 @@
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V     &kp B             &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
             &kp LCTRL  &kp LALT  &kp LGUI  &td0  &kp RGUI             &mo 2   &mo 1  &kp RCTRL
             >;
-        };  
+        };
 
         layer_lower_layer {
             bindings = <
