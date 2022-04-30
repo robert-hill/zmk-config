@@ -23,7 +23,7 @@
         compatible = "zmk,combos";
         combo_navi {
             timeout-ms = <50>;
-            key-positions = <59 58>;
+            key-positions = <28 58>;
             bindings = <&tog 2>;
         };
         combo_capslock {
