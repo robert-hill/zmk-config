@@ -67,7 +67,7 @@
 
         layer_raise_layer {
             bindings = <
- &kp ESC  &kp F14       &kp F15     &kp F16  &kp F17    &kp F5            &kp F6    &kp F7    &kp F8     &kp F9  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp DEL
+ &kp ESC  &kp F14       &kp F15     &kp F3  &kp F4    &kp F5            &kp F6    &kp F7    &kp F8     &kp F9  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp DEL
  &trans  &kp HOME     &kp UP  &kp PG_UP  &trans    &trans          &trans  &kp HOME    &kp UP  &kp PG_UP      &trans        &trans        &trans  &trans
  &trans  &kp LEFT     &kp DOWN  &kp RIGHT  &trans  &trans          &trans  &kp LEFT  &kp DOWN  &kp RIGHT      &trans        &trans        &trans
  &trans               &kp END         &trans  &kp PG_DN  &trans  &trans            &trans   &kp END    &trans  &kp PG_DN      &trans        &trans
